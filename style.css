@@ -1,0 +1,44 @@
+body {
+	background: beige;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+div.listItems
+{
+  text-align: center;
+}
+ul.Arrangement {
+  text-align: left;
+  margin-top: 20px;
+  display: inline-block;
+}
+ul li
+{
+  margin-right: 5px;
+}
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: black;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #9b6e51;
+	transition: all 0.75s ease;
+  display:inline-block;
+	
+}
+.delete {
+	display: none;
+}
